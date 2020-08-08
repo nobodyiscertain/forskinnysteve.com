@@ -1,0 +1,131 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* B================================================================D
+	Begin Styles
+B=============================================================D ***/
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+}
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+a {
+	color: #18A049;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+a:hover {
+	color: #FFF;
+	background-color: #18A049;
+}
+#header {
+	text-align: center;
+	margin-bottom: 50px;
+}
+p#info {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+h1 {
+	font-size: 120px;
+	font-family: Georgia, serif;
+	color: #00B0D8;
+	font-weight: bold;
+}
+h2 {
+	font-size: 2.0em;
+	color: #EE2C7C;
+	margin-bottom: 10px;
+}
+h3 {
+	font-size: 1.5em;
+	color: #18A049;
+	display: none;
+}
+#middle {
+	margin-bottom: 10px;
+}
+#middle img {
+	border: 5px solid #00B0D8;
+	margin-bottom: 10px;
+}
+#middle form img {
+	border: none;
+}
+.record {
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+	width: 480px;
+}
+#footer {
+	clear: both;
+	font-size: 10px;
+	color: #E2E2E2;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.links a {
+}
+a.download {
+	height: 79px;
+	display: block;
+	background: transparent url(../images/download_album_button.jpg) no-repeat 123px 0;
+	text-indent: -9000px;
+	padding: 0;
+}
